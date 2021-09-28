@@ -12,8 +12,8 @@ func main() {
 	log.SetFlags(0)
 	// // log out the date
 	// log.SetFlags(1)
-	// message, err := greetings.Hello("Gladys")
-	message, err := greetings.Hello("")
+	message, err := greetings.Hello("Liping")
+	// message, err := greetings.Hello("")
 	if err != nil {
 		log.Fatal(err)
 	}
